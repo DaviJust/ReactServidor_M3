@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+.divGlobe{
+    display: flex;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    
+}
+.divImage{
+    width: 50vw;
+}
+.divImage img{
+    width: 100%;
+    height: auto;
+    transform: translateY(8.5rem);
+}
+.divSobre {
+    color: #fff;
+    padding: 15rem 2rem 12rem 2rem;
+    width: 50vw;
+    text-align: center;
+}
+.divSobre h1 {
+    margin-bottom: 3.8rem;
+    font-size: 2.7rem;
+}
+.divSobre p:nth-child(2){
+    font-size: 1.3rem;
+    margin-bottom: 2.2rem;
+}
+#compartilhe{
+    font-family: 'Pirata One', cursive;
+    font-size: 2.5rem;
+    animation: colorChange 1s infinite;
+}
+@keyframes colorChange{
+    1%, 40%, 80%{color: white;}
+    20%, 60%, 100%{color: yellow;}
+}
+
+@media(max-width: 1200px){
+    .divGlobe{
+        flex-direction: column;
+    }
+    .divSobre, .divImage{
+        width: 100vw;
+    }
+    .divImage img{
+        transform: translateY(-5rem);
+
+    }
+}

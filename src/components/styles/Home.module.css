@@ -1,0 +1,26 @@
+.divHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5.6rem;
+    height: 50rem;
+    background: url(/src/images/sala.jpg) rgba(255, 255, 0, 0.162);
+    background-size: cover;
+    background-position: 50% 7%;
+    background-blend-mode: darken;
+}
+.divHome h2{
+    color: #fff;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+    text-align: center;
+    transform: translate(-2.3rem, -6rem);
+}
+@media(max-width: 1433px){
+    .divHome h2{
+        font-size: 2rem;
+        transform: translateY(-10rem);
+        margin-left: .3rem;
+        margin-right: .3ren;
+    }
+}

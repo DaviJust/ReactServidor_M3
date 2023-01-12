@@ -1,0 +1,46 @@
+.divMain{
+    width: 100vw;
+    height: auto;
+}
+.divText{
+    color: #fff;
+    text-shadow: 2px 2px black;
+    font-size: 2.5rem;
+    text-align: center; 
+    padding: 13rem 1.5rem 8rem 1.5rem;
+}
+.divText p, .textFooter p{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    transform: translateY(2rem);
+}
+.textFooter{
+    color: #fff;
+    text-shadow: 2px 2px black;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 7rem 1.5rem 8rem 1.5rem;
+}
+.paraApi{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.paraMap{
+    width: 21.7rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 7px black;
+}
+.paraMap:hover{
+    background-color: rgba(61, 61, 61, 0.727);
+    color: #fff;
+}
+.btnFilmes{
+    padding: 1rem;
+}

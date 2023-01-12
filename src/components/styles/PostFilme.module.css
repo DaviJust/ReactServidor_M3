@@ -1,0 +1,42 @@
+.divPostFilme{
+    width: 100vw;
+    height: 54rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/src/images/pipoca.jpg) rgba(255, 255, 0, 0.162);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-blend-mode: darken;
+}
+.formPostFilme{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transform: translateY(3.4rem);
+    background-color: black;
+    border-radius: 5px;
+    padding: 1rem 2.4rem 1rem 2.4rem;
+}
+.formPostFilme input, textarea{
+    width: 25rem;
+}
+.formPostFilme textarea{
+    min-height: 10rem;
+    max-height: 10rem;
+}
+.formPostFilme input, textarea{
+    padding: .2rem;
+    background-color: black;
+    color: #fff;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+.divFormPost{
+    margin: 1rem 0 .5rem 0;
+}
+.divFormPost input{
+    width: 4.5rem;
+    margin: 0 .3rem 0 .2rem;
+}

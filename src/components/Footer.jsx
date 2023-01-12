@@ -1,6 +1,6 @@
 import styles from './styles/Footer.module.css'
 import { Link } from 'react-router-dom'
-import {BiCameraMovie} from 'react-icons/bi'
+import {BiCameraMovie, BiColorFill} from 'react-icons/bi'
 import {AiFillFacebook, AiFillTwitterSquare, AiFillInstagram} from 'react-icons/ai'
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
             <div>
                 <h3>Contato</h3>
                 <ul className={styles.listUl}>
-                    <li>Perguntas Frequentes</li>
+                <li><Link to='/Sobre'><a>Perguntas Frequentes</a></Link></li> 
                     <li>SAC</li>
                     <li>Contato</li>
                     <li>Equipe</li>

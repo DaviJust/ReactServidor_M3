@@ -1,6 +1,8 @@
 import styles from '../components/styles/Sobre.module.css'
 import { useState, useEffect } from 'react'
 import popcorn from '../images/popcorn.png'
+import Titlefaq from '../components/Titlefaq'
+import Faq from '../components/Faq'
 
 export default function Sobre(){
 
@@ -17,6 +19,8 @@ export default function Sobre(){
                 <img src={popcorn} alt="" />
                </div>
            </div>
+           <Titlefaq></Titlefaq>
+            <Faq></Faq>
         </>
     )
 }

@@ -29,6 +29,16 @@
 .listUl li:hover{
     color: yellow;
 }
+
+.listUl a{
+    color: white;
+
+}
+.listUl a:hover{
+    color: yellow;
+
+}
+
 @media(max-width: 950px){
     .divFooter{
         flex-direction: column;

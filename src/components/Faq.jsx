@@ -56,7 +56,7 @@ return (
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
       data-bs-parent="#accordionExample">
       <div class="accordion-body py-4 px-5">
-        <strong>Nada, todo o serviço  é gratuito</strong>
+        <strong>Consulte nossos plano e escolha o melhor para voce😉</strong>
       </div>
     </div>
   </div>

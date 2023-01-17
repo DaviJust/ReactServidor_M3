@@ -44,3 +44,18 @@
 .btnFilmes{
     padding: 1rem;
 }
+.btnDel{
+    font-size: .8rem;
+    margin-top: .9rem;
+    padding: 0 3px 0 3px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+.btnDel:hover{
+    background: rgba(255, 255, 255, 0.195);
+}
+.btnDel:nth-child(3){
+    margin-left: .5rem;
+}

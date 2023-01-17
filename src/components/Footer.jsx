@@ -16,7 +16,7 @@ export default function Footer() {
                 <ul className={styles.listUl}>
                 <li><Link to='/Sobre'><a>Perguntas Frequentes</a></Link></li> 
                     <li>SAC</li>
-                    <li>Contato</li>
+                    <li><Link to='/Contato'>Contato</Link></li>
                     <li>Equipe</li>
                 </ul>
             </div>

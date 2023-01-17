@@ -1,0 +1,45 @@
+.divMaster{
+    width: 100vw;
+}
+.headerContatos{
+    text-align: center;
+    transform: translateY(13rem);
+    margin-bottom: 13rem;
+    color: #fff;
+}
+.headerContatos p{
+    font-size: 1.4rem;
+}
+.Cards{
+    transform: translateY(10rem);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 18rem;
+    gap: 2.5rem;
+}
+.Card{
+    width: 12rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 7px black;
+}
+.Card img{
+    width: 10rem;
+    height: 10.5rem;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transform: scale(1.8);
+    gap: .4rem;
+    color: yellow;
+}

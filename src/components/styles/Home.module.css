@@ -16,6 +16,34 @@
     text-align: center;
     transform: translate(-2.3rem, -6rem);
 }
+.planos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.sectionPlanos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    padding: 5.5rem;
+}
+.sectionPlanos div{
+    border: 1px solid #fff;
+    background-color: #000;
+    
+}
+.sectionPlanos ul{
+    width: 20rem;
+}
+.sectionPlanos div h3{
+    font-size: 1.3rem;
+    margin-top: .5rem;
+    text-align: center;
+    color: yellow;
+}
 @media(max-width: 1433px){
     .divHome h2{
         font-size: 2rem;

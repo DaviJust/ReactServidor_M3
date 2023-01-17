@@ -13,6 +13,7 @@ function Header(){
                 <Link to='/'>Home</Link>
                 <Link to='/Filmes'>Filmes</Link>
                 <Link to='/Sobre'>Sobre</Link>
+                <Link to='/Contato'>Contato</Link>
                 <Link to='/PostarFilme'>Adicionar</Link>
             </ul>
 

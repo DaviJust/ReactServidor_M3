@@ -27,7 +27,7 @@ export default function PostFilme() {
         });
         setTimeout(() => {
             window.location.href = '/Filmes';
-        }, 500)
+        }, 200)
     };
 
     $(document).ready(() => {

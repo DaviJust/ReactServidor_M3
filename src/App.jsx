@@ -7,6 +7,7 @@ import Filmes from './routes/Filmes.jsx'
 import Sobre from './routes/Sobre.jsx'
 import Footer from './components/Footer.jsx'
 import PostFilme from './routes/PostFilme.jsx'
+import Contato from './routes/Contato.jsx'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/Filmes' element={<Filmes />} />
         <Route path='/Sobre' element={<Sobre />} />
         <Route path='/PostarFilme' element={<PostFilme />}/>
+        <Route path='/Contato' element={<Contato />} />
       </Routes>
       <Footer />
     </BrowserRouter>

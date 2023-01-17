@@ -34,11 +34,11 @@
     cursor: pointer;
     color: #000;
 }
-.headerDiv ul a:nth-child(4):hover{
+.headerDiv ul a:nth-child(5):hover{
     background-color: rgb(67, 65, 65);
     color: #fff;
 }
-.headerDiv ul a:nth-child(4){
+.headerDiv ul a:nth-child(5){
     padding: .4rem;
     border-radius: 5px;
     border: 2px solid #fff;

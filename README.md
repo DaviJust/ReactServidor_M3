@@ -25,3 +25,11 @@
    <a href="https://github.com/JoaoOcho">João Pedro</a>
    <br>
    <a href="https://github.com/Hoptavio">Otavio Augusto</a>
+   
+   <h2>Clonagem do projeto</h2>
+   <p>Copie a URL do gitclone e cole no Visual studio ou no CMD</p>
+
+#Visual Studio
+<img width="600" height="300" src="./imgs/tutorial1.jpeg" alt="">
+#CMD
+<img width="600" height="300" src="./imgs/tutorial2.jpeg" alt="">

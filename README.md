@@ -35,4 +35,4 @@
 <h2>CMD</h2>
 <img width="600" height="300" src="./imgs/2.png" alt="">
 
-<h2>Para acessar o json-server clique,<a href="https://github.com/Hoptavio">Aqui!</a></h2>
+<h2>Para acessar o json-server clique <a href="https://github.com/Hoptavio">Aqui!</a></h2>

@@ -29,8 +29,8 @@
    <h2>Clonagem do projeto</h2>
    <p>Copie a URL do gitclone e cole no Visual studio ou no CMD</p>
 
-#Visual Studio
+<h2>Visual Studio</h2>
 <img width="600" height="300" src="./imgs/1.png" alt="">
 <br>
-#CMD
+<h2>CMD</h2>
 <img width="600" height="300" src="./imgs/2.png" alt="">

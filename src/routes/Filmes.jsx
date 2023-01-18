@@ -3,6 +3,7 @@ import API from '../axios/Config.jsx'
 import styles from '../components/styles/Filmes.module.css'
 import { useState, useEffect } from 'react'
 import gifLoad from '../images/gif-loading.gif' 
+import { Link } from 'react-router-dom'
 
 export default function Filmes() {
 
@@ -28,7 +29,7 @@ export default function Filmes() {
             <div className={styles.textFooter}>
                 <h1>Bom demais, né?</h1>
                 <h3>Cadastre-se e tenha acesso a ferramentas exclusivas.</h3>
-                <button className='btn btn-success'>Cadastro</button>
+                <Link className='btn btn-success' to='/Login'> Login </Link>
             </div>
 
         </div>

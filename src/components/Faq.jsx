@@ -3,9 +3,10 @@ import Titlefaq from "./Titlefaq";
 export default function Faq() {
 return (
 <div class="accordion" id="accordionExample">
-  <div class="accordion-item bg-white border border-gray-200">
-    <h2 class="accordion-header mb-0" id="headingOne">
+  <div class="accordion-item bg-black text-white border border-gray-200">
+    <h2 class="bg-black text-white accordion-header mb-0" id="headingOne">
       <button class="
+      bg-black text-white
         accordion-button
         relative
         flex
@@ -14,7 +15,6 @@ return (
         py-4
         px-5
         text-base text-gray-800 text-left
-        bg-white
         border-0
         rounded-none
         transition
@@ -24,16 +24,17 @@ return (
             Como funciona?  
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+    <div id="collapseOne" class=" bg-black text-white accordion-collapse collapse show" aria-labelledby="headingOne"
       data-bs-parent="#accordionExample">
       <div class="accordion-body py-4 px-5">
         <strong>Registre seus filmes</strong> ao clicar no botao no topo "adicionar", registre todas as informações do filme ...
       </div>
     </div>
   </div>
-  <div class="accordion-item bg-white border border-gray-200">
-    <h2 class="accordion-header mb-0" id="headingTwo">
+  <div class="bg-black text-white accordion- border border-gray-200">
+    <h2 class="bg-black text-white accordion-header mb-0" id="headingTwo">
       <button class="
+      bg-black text-white
         accordion-button
         collapsed
         relative
@@ -43,7 +44,6 @@ return (
         py-4
         px-5
         text-base text-gray-800 text-left
-        bg-white
         border-0
         rounded-none
         transition
@@ -53,16 +53,17 @@ return (
         Quanto custa?
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+    <div id="collapseTwo" class=" bg-black text-white accordion-collapse collapse" aria-labelledby="headingTwo"
       data-bs-parent="#accordionExample">
-      <div class="accordion-body py-4 px-5">
+      <div class="accordion-body py-4 px-5 bg-black text-white" >
         <strong>Consulte nossos plano e escolha o melhor para voce😉</strong>
       </div>
     </div>
   </div>
-  <div class="accordion-item bg-white border border-gray-200">
+  <div class="accordion- border border-gray-200">
     <h2 class="accordion-header mb-0" id="headingThree">
       <button class="
+      bg-black text-white
         accordion-button
         collapsed
         relative
@@ -72,7 +73,6 @@ return (
         py-4
         px-5
         text-base text-gray-800 text-left
-        bg-white
         border-0
         rounded-none
         transition
@@ -82,7 +82,7 @@ return (
         Quais filmes posso adicionar?
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+    <div id="collapseThree" class=" bg-black text-white accordion-collapse collapse" aria-labelledby="headingThree"
       data-bs-parent="#accordionExample">
       <div class="accordion-body py-4 px-5">
         <strong>Qualquer um.</strong> Só escrever as informações do filme e adicionar a URL imagem 

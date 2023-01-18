@@ -30,6 +30,7 @@
    <p>Copie a URL do gitclone e cole no Visual studio ou no CMD</p>
 
 #Visual Studio
-<img width="600" height="300" src="./imgs/tutorial1.jpeg" alt="">
+<img width="600" height="300" src="./imgs/1.jpeg" alt="">
+<br>
 #CMD
-<img width="600" height="300" src="./imgs/tutorial2.jpeg" alt="">
+<img width="600" height="300" src="./imgs/2.jpeg" alt="">

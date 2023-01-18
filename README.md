@@ -37,4 +37,4 @@
 
 <h2>Execução do Projeto</h2>
 <p>Após clonar o projeto, abra o terminal e use o código <strong>npm install</strong>, após isso <strong>npm run dev</strong> </p>
-<h2>Para acessar o json-server click,<a href="https://github.com/Hoptavio">Aqui!</a></h2>
+<h2>Para acessar o json-server clique,<a href="https://github.com/Hoptavio">Aqui!</a></h2>

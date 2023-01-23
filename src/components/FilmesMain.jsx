@@ -68,7 +68,7 @@ export default function FilmesMain({ imagem, titulo, ano, direção, duração, 
         API.delete(`/filmes/${id}`);
         setTimeout(() => {
             window.location.reload(1);
-        }, 250);
+        }, 450);
     }
 
     // Função para os comentários

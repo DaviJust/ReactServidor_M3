@@ -1,21 +1,23 @@
 .divMaster{
     width: 100vw;
+    padding: 11rem 0 18rem 0;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
 }
 .headerContatos{
     text-align: center;
-    transform: translateY(13rem);
-    margin-bottom: 13rem;
+    transform: translateY(2rem);
     color: #fff;
 }
 .headerContatos p{
     font-size: 1.4rem;
+    margin: 0 1rem 0 1rem;
 }
 .Cards{
     transform: translateY(10rem);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 18rem;
     gap: 2.5rem;
 }
 .Card{
@@ -29,9 +31,14 @@
     cursor: pointer;
     box-shadow: 7px 7px black;
 }
+.Card:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
 .Card img{
     width: 10rem;
     height: 10.5rem;
+    margin-bottom: 1.5rem;
 }
 .redes{
     display: flex;
@@ -41,5 +48,8 @@
     padding: 0;
     transform: scale(1.8);
     gap: .4rem;
+    color: yellow;
+}
+.redes a{
     color: yellow;
 }

@@ -17,7 +17,6 @@ export default function Footer() {
                 <li><Link to='/Sobre'><a>Perguntas Frequentes</a></Link></li> 
                     <li>SAC</li>
                     <li><Link to='/Contato'>Contato</Link></li>
-                    <li>Equipe</li>
                 </ul>
             </div>
             <div>
@@ -28,8 +27,6 @@ export default function Footer() {
                     <li>{<AiFillTwitterSquare />} Twitter</li>
                 </ul>
             </div>
-
-
         </div>
     )
 }

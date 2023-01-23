@@ -14,7 +14,7 @@ return (
         w-full
         py-4
         px-5
-        text-base text-gray-800 text-left
+        text-base text-left
         border-0
         rounded-none
         transition
@@ -43,7 +43,7 @@ return (
         w-full
         py-4
         px-5
-        text-base text-gray-800 text-left
+        text-base text-left
         border-0
         rounded-none
         transition
@@ -72,7 +72,7 @@ return (
         w-full
         py-4
         px-5
-        text-base text-gray-800 text-left
+        text-base text-left
         border-0
         rounded-none
         transition

@@ -15,7 +15,7 @@ function Header(){
                 <Link to='/Filmes'>Filmes</Link>
                 <Link to='/Sobre'>Sobre</Link>
                 <Link to='/Contato'>Contato</Link>
-                <Link to='/PostFilme'>Adicionar</Link>
+                {/* <Link to='/PostFilme'>Adicionar</Link> */}
                 
             </ul>
 

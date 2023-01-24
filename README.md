@@ -29,6 +29,9 @@
    <h2>Clonagem do projeto</h2>
    <p>Copie a URL do gitclone e cole no Visual studio ou no CMD</p>
 
+<h2>Site do projeto</h2>
+<h2>Para acessar o json-server clique <a href="https://davijust.github.io/Home/">Aqui!</a></h2>
+
 <h2>Visual Studio</h2>
 <img width="600" height="300" src="./imgs/1.png" alt="">
 <br>

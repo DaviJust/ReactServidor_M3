@@ -34,11 +34,11 @@
     cursor: pointer;
     color: #000;
 }
-.headerDiv ul a:nth-child(5):hover{
-    background-color: rgb(67, 65, 65);
-    color: #fff;
+.login:hover{
+    background-color: rgb(67, 65, 65) !important;
+    color: #fff !important;
 }
-.headerDiv ul a:nth-child(5){
+.login{
     padding: .4rem;
     border-radius: 5px;
     border: 2px solid #fff;

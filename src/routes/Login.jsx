@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import API from "../axios/Config";
 import "../components/styles/login.css";
+import imgLogin from '../images/bmpopcorn.png'
 
 export default function Cadastro() {
   const [Usuario, setUsuario] = useState("");
@@ -35,6 +36,7 @@ export default function Cadastro() {
   return (
     <div class="espaco">
       <form>
+        <h1 className="text-center">Login</h1>
         <div class="form-group">
           <label for="inputUsuario"></label>
           <input
@@ -57,10 +59,13 @@ export default function Cadastro() {
             placeholder="Senha"
           />
         </div>
-        <button type="button" onClick={validarUsuario} class="btn btn-primary">
+        <button type="button" onClick={validarUsuario} class="btn btn-danger mt-3">
           Enviar
         </button>
       </form>
+      <div class="imgLogiin">
+        <img src={imgLogin} alt="ilustração" />
+      </div>
     </div>
   );
 }

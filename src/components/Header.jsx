@@ -4,6 +4,7 @@ import {BiCameraMovie} from 'react-icons/bi'
 import { useState } from 'react'
 
 function Header(){
+    let loginOn = localStorage.getItem('logado');
     return(
         <div className={styles.headerDiv}>
             <Link to='/'>
@@ -11,10 +12,11 @@ function Header(){
             </Link>
             <ul>
                 <Link to='/'>Home</Link>
-                <Link to='/Login'>Login</Link>
                 <Link to='/Filmes'>Filmes</Link>
                 <Link to='/Sobre'>Sobre</Link>
                 <Link to='/Contato'>Contato</Link>
+                <Link to='/Login' className={styles.login}>Login</Link>
+                
                 {/* <Link to='/PostFilme'>Adicionar</Link> */}
                 
             </ul>

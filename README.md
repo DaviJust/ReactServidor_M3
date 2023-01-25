@@ -2,7 +2,7 @@
     <img width="600px" height="300px" src="./imgs/home.jpeg">
     <h1>🟢Sobre o projeto🟢</h1>
     <h2>#Hard skills</h2>
-    <p>O intuito do projeto é a criação de um site tematico implementando o servidor criado em um projeto individual</p>
+    <p>O intuito do projeto é a criação de um site tematico implementando o servidor criado em um projeto individual. Foi usado o Host para criar a API, fazendo as requisições.</p>
     <h2>#Soft skills</h2>
     <p>Reactflix é um site onde é criar uma biblioteca de filmes assistidos pelo usuarios e registrar suas opiniões sobre</p>
     <img width="600" height="300" src="./imgs/filmes.jpeg" alt="">

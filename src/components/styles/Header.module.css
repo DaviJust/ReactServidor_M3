@@ -44,6 +44,9 @@
     border: 2px solid #fff;
     margin-left: 1rem;
 }
+.moreMovie{
+    transform: scale(1.6);
+}
 
 @media(max-width: 700px){
     .headerDiv{

@@ -21,6 +21,7 @@ export default function Cadastro() {
     setSenha(e.target.value);
   }
 
+  
   function validarUsuario() {
     let e = ListaUsuarios.find(
       (usuario) => usuario.usuario === Usuario && usuario.senha === Senha
@@ -28,14 +29,16 @@ export default function Cadastro() {
     if (e === undefined) {
       alert("Conta não existe.");
     } else {
-      localStorage.setItem( 'logado','true' );
-      navigate('/Filmes')
+      localStorage.setItem('logado', 'true');
+      sessionStorage.usuario = Usuario;
+      sessionStorage.senha = Senha;
+      window.location.href = '/Filmes';
     }
   }
 
   return (
     <div class="espaco">
-      <form>
+      {sessionStorage.usuario == 'admin' && sessionStorage.senha == 'admin' ? (<h1 class='text-light text-center'>Você está logado como Administrador!</h1>): (<form>
         <h1 className="text-center">Login</h1>
         <div class="form-group">
           <label for="inputUsuario"></label>
@@ -62,7 +65,7 @@ export default function Cadastro() {
         <button type="button" onClick={validarUsuario} class="btn btn-danger mt-3">
           Enviar
         </button>
-      </form>
+      </form>)}
       <div class="imgLogiin">
         <img src={imgLogin} alt="ilustração" />
       </div>

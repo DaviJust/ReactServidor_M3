@@ -31,6 +31,7 @@
 
 <h2>Site do projeto</h2>
 <p>Link para o site do projeto <a href="https://davijust.github.io/Home/">Aqui!</a></p>
+<div><strong>LOGIN</strong>: Usuário: admin / Senha: admin</div>
 
 <h2>Visual Studio</h2>
 <img width="600" height="300" src="./imgs/1.png" alt="">
